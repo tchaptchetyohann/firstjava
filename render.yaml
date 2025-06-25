@@ -6,3 +6,6 @@ services:
     branch: main
     autoDeploy: true
     dockerfilePath: Dockerfile
+    build:
+      context: .
+      dockerfile: Dockerfile
